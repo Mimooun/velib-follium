@@ -1,0 +1,2172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2b9203356b675a494782a5928131f95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b2b9203356b675a494782a5928131f95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b2b9203356b675a494782a5928131f95 = L.map(
+                "map_b2b9203356b675a494782a5928131f95",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e559e0bd37cee28c5acdd921282ab76c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e559e0bd37cee28c5acdd921282ab76c.addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+            var marker_d15a048ef223ee70cc41880394b5620f = L.marker(
+                [48.778192750803, 2.3963020229163],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_1d9be38eca070742b2db47130a45b1d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_646642802e450ee989d74788769e6264 = $(`<div id="html_646642802e450ee989d74788769e6264" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Rouget de L'isle - Watteau</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">20</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">9</span></p>             </div>             </div>`)[0];
+                popup_1d9be38eca070742b2db47130a45b1d8.setContent(html_646642802e450ee989d74788769e6264);
+            
+        
+
+        marker_d15a048ef223ee70cc41880394b5620f.bindPopup(popup_1d9be38eca070742b2db47130a45b1d8)
+        ;
+
+        
+    
+    
+            var marker_2ab828e1410bcd0306f7c213ac823652 = L.marker(
+                [48.87929591733507, 2.3373600840568547],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_cf4b4dcb01ca207832ca9665ffb98c23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_213f322215ba036f2724da57b01924e7 = $(`<div id="html_213f322215ba036f2724da57b01924e7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Toudouze - Clauzel</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">21</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">2</span></p>             </div>             </div>`)[0];
+                popup_cf4b4dcb01ca207832ca9665ffb98c23.setContent(html_213f322215ba036f2724da57b01924e7);
+            
+        
+
+        marker_2ab828e1410bcd0306f7c213ac823652.bindPopup(popup_cf4b4dcb01ca207832ca9665ffb98c23)
+        ;
+
+        
+    
+    
+            var marker_1fc6ea74005a38f1c9073081f9442de9 = L.marker(
+                [48.93626891059109, 2.3588666820200914],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_4149a62c9a51d2172a0b2ad01080bb62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd38c32bdaae9e785329a2108df3677e = $(`<div id="html_bd38c32bdaae9e785329a2108df3677e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Basilique</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">22</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">19</span></p>             </div>             </div>`)[0];
+                popup_4149a62c9a51d2172a0b2ad01080bb62.setContent(html_bd38c32bdaae9e785329a2108df3677e);
+            
+        
+
+        marker_1fc6ea74005a38f1c9073081f9442de9.bindPopup(popup_4149a62c9a51d2172a0b2ad01080bb62)
+        ;
+
+        
+    
+    
+            var marker_75de1e74ac8a88643926e4d8c2a6485d = L.marker(
+                [48.855907555969, 2.3925706744194],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_80582673f2990646a29616d1ef8d58dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_590c718802bfd27f2883aeca00a94481 = $(`<div id="html_590c718802bfd27f2883aeca00a94481" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Charonne - Robert et Sonia Delaunay</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">20</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">0</span></p>             </div>             </div>`)[0];
+                popup_80582673f2990646a29616d1ef8d58dd.setContent(html_590c718802bfd27f2883aeca00a94481);
+            
+        
+
+        marker_75de1e74ac8a88643926e4d8c2a6485d.bindPopup(popup_80582673f2990646a29616d1ef8d58dd)
+        ;
+
+        
+    
+    
+            var marker_b1099d53f90289003a993a3dd27a3c32 = L.marker(
+                [48.835092787824, 2.3534681351338],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_895b1a4dd3c353d61c5873d69ac65051 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c654fe24782b4f0e6a318c5123eebfa9 = $(`<div id="html_c654fe24782b4f0e6a318c5123eebfa9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Le Brun - Gobelins</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">48</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_895b1a4dd3c353d61c5873d69ac65051.setContent(html_c654fe24782b4f0e6a318c5123eebfa9);
+            
+        
+
+        marker_b1099d53f90289003a993a3dd27a3c32.bindPopup(popup_895b1a4dd3c353d61c5873d69ac65051)
+        ;
+
+        
+    
+    
+            var marker_ff304308e172eaa6b6f4da774e4e574f = L.marker(
+                [48.848563233059, 2.3204218259346],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_4bcc80d4a37641e51f2af4a7036a17fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fed9e7691bc9d0d831023c9110f79f9d = $(`<div id="html_fed9e7691bc9d0d831023c9110f79f9d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Vaneau - Sèvres</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">35</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">10</span></p>             </div>             </div>`)[0];
+                popup_4bcc80d4a37641e51f2af4a7036a17fc.setContent(html_fed9e7691bc9d0d831023c9110f79f9d);
+            
+        
+
+        marker_ff304308e172eaa6b6f4da774e4e574f.bindPopup(popup_4bcc80d4a37641e51f2af4a7036a17fc)
+        ;
+
+        
+    
+    
+            var marker_6ac15027afc11a24d5142d0f4d9b6c58 = L.marker(
+                [48.84708159081946, 2.321374788880348],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_10f17ad9ec8bb99234d1adc358a2cf50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0334f7568f93a3b4510e92c74dbdde2 = $(`<div id="html_a0334f7568f93a3b4510e92c74dbdde2" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Saint-Romain - Cherche-Midi</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">17</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">8</span></p>             </div>             </div>`)[0];
+                popup_10f17ad9ec8bb99234d1adc358a2cf50.setContent(html_a0334f7568f93a3b4510e92c74dbdde2);
+            
+        
+
+        marker_6ac15027afc11a24d5142d0f4d9b6c58.bindPopup(popup_10f17ad9ec8bb99234d1adc358a2cf50)
+        ;
+
+        
+    
+    
+            var marker_bcc01ff247fad9e25192fc85241d7352 = L.marker(
+                [48.91039875761846, 2.3851355910301213],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_e4aab251b7d3ec685b8c49f5c10f8641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd626169444ccc5a4fd837327400b9c8 = $(`<div id="html_bd626169444ccc5a4fd837327400b9c8" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">André Karman - République</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">31</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">5</span></p>             </div>             </div>`)[0];
+                popup_e4aab251b7d3ec685b8c49f5c10f8641.setContent(html_bd626169444ccc5a4fd837327400b9c8);
+            
+        
+
+        marker_bcc01ff247fad9e25192fc85241d7352.bindPopup(popup_e4aab251b7d3ec685b8c49f5c10f8641)
+        ;
+
+        
+    
+    
+            var marker_f9fbbd339a4380e7d25d50211d94b35e = L.marker(
+                [48.81580226360801, 2.376804985105991],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_4aeb337e986477882d31af3f0c3bb717 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c4c474b4a6786618326b8996ecf9a4c = $(`<div id="html_8c4c474b4a6786618326b8996ecf9a4c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Pierre et Marie Curie - Maurice Thorez</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">27</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">2</span></p>             </div>             </div>`)[0];
+                popup_4aeb337e986477882d31af3f0c3bb717.setContent(html_8c4c474b4a6786618326b8996ecf9a4c);
+            
+        
+
+        marker_f9fbbd339a4380e7d25d50211d94b35e.bindPopup(popup_4aeb337e986477882d31af3f0c3bb717)
+        ;
+
+        
+    
+    
+            var marker_df724d5ab470bfb2836d77aa7fbc95aa = L.marker(
+                [48.779035118572, 2.4609763908985],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_b2e16005e67a6260cc5bc45fed821438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_735264c05cf1e117e639f30755be2ba9 = $(`<div id="html_735264c05cf1e117e639f30755be2ba9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Bas du Mont-Mesly</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">1</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">0</span></p>             </div>             </div>`)[0];
+                popup_b2e16005e67a6260cc5bc45fed821438.setContent(html_735264c05cf1e117e639f30755be2ba9);
+            
+        
+
+        marker_df724d5ab470bfb2836d77aa7fbc95aa.bindPopup(popup_b2e16005e67a6260cc5bc45fed821438)
+        ;
+
+        
+    
+    
+            var marker_0231772f441ec22c5e878b19787d63c0 = L.marker(
+                [48.835583838706, 2.2325500845909],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_a0b80dc0e39ed1ca78799f3abdd515aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cb3b152decfe1551da5a14477a27020 = $(`<div id="html_5cb3b152decfe1551da5a14477a27020" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Silly - Galliéni</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">25</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">11</span></p>             </div>             </div>`)[0];
+                popup_a0b80dc0e39ed1ca78799f3abdd515aa.setContent(html_5cb3b152decfe1551da5a14477a27020);
+            
+        
+
+        marker_0231772f441ec22c5e878b19787d63c0.bindPopup(popup_a0b80dc0e39ed1ca78799f3abdd515aa)
+        ;
+
+        
+    
+    
+            var marker_c81f3b71535f58873d89fbd140ba81c5 = L.marker(
+                [48.862453313908, 2.1961666225454],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_48590b14df5ad75b33716d8510078fd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_489d575dd58b7cef2afb734c73c25df1 = $(`<div id="html_489d575dd58b7cef2afb734c73c25df1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Place Nelson Mandela</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">22</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_48590b14df5ad75b33716d8510078fd5.setContent(html_489d575dd58b7cef2afb734c73c25df1);
+            
+        
+
+        marker_c81f3b71535f58873d89fbd140ba81c5.bindPopup(popup_48590b14df5ad75b33716d8510078fd5)
+        ;
+
+        
+    
+    
+            var marker_f9b507eba50076118ca054b3b59cc31a = L.marker(
+                [48.851296433665276, 2.325061820447445],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_8306b64d96be5cdc775c69d1e92dab2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0ad540591b95a19d040c83cae3245f4 = $(`<div id="html_d0ad540591b95a19d040c83cae3245f4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Square Boucicaut</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">60</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">56</span></p>             </div>             </div>`)[0];
+                popup_8306b64d96be5cdc775c69d1e92dab2f.setContent(html_d0ad540591b95a19d040c83cae3245f4);
+            
+        
+
+        marker_f9b507eba50076118ca054b3b59cc31a.bindPopup(popup_8306b64d96be5cdc775c69d1e92dab2f)
+        ;
+
+        
+    
+    
+            var marker_d559b8e6ed7026b1edefcbf67051842c = L.marker(
+                [48.8570414504784, 2.37289470306807],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_5a40819b0b8d8e7f70635bd1e55ab5ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94655159be81d45cdbf4459c44d9f724 = $(`<div id="html_94655159be81d45cdbf4459c44d9f724" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Froment - Bréguet</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">43</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">31</span></p>             </div>             </div>`)[0];
+                popup_5a40819b0b8d8e7f70635bd1e55ab5ef.setContent(html_94655159be81d45cdbf4459c44d9f724);
+            
+        
+
+        marker_d559b8e6ed7026b1edefcbf67051842c.bindPopup(popup_5a40819b0b8d8e7f70635bd1e55ab5ef)
+        ;
+
+        
+    
+    
+            var marker_2e07b161bd78e73fb22f206795d4529f = L.marker(
+                [48.826103771275, 2.3004549373748],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_53a502d5ec872cc773944a032c02d0ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fde200ecebe8062b249621208fbe9c8d = $(`<div id="html_fde200ecebe8062b249621208fbe9c8d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Bracion - Périphérique</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">30</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">0</span></p>             </div>             </div>`)[0];
+                popup_53a502d5ec872cc773944a032c02d0ac.setContent(html_fde200ecebe8062b249621208fbe9c8d);
+            
+        
+
+        marker_2e07b161bd78e73fb22f206795d4529f.bindPopup(popup_53a502d5ec872cc773944a032c02d0ac)
+        ;
+
+        
+    
+    
+            var marker_6d00ae0f30f61f254028320c7c763b46 = L.marker(
+                [48.840855311763, 2.3875549435616],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_651c0f73ffe4bd3e6b7a171f2025ec62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bfd42eab0c2c798032910325ef8077b = $(`<div id="html_6bfd42eab0c2c798032910325ef8077b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Mairie du 12ème</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">30</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">5</span></p>             </div>             </div>`)[0];
+                popup_651c0f73ffe4bd3e6b7a171f2025ec62.setContent(html_6bfd42eab0c2c798032910325ef8077b);
+            
+        
+
+        marker_6d00ae0f30f61f254028320c7c763b46.bindPopup(popup_651c0f73ffe4bd3e6b7a171f2025ec62)
+        ;
+
+        
+    
+    
+            var marker_5e15e0a8a5c2bd663717dc52cbd3a3dc = L.marker(
+                [48.871417284355, 2.3076787590981],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_ebedd8a875e186263f20e2d27cf7f3a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_351f0393f644872eea6baa923ca5d746 = $(`<div id="html_351f0393f644872eea6baa923ca5d746" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Boétie - Ponthieu</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">45</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">40</span></p>             </div>             </div>`)[0];
+                popup_ebedd8a875e186263f20e2d27cf7f3a5.setContent(html_351f0393f644872eea6baa923ca5d746);
+            
+        
+
+        marker_5e15e0a8a5c2bd663717dc52cbd3a3dc.bindPopup(popup_ebedd8a875e186263f20e2d27cf7f3a5)
+        ;
+
+        
+    
+    
+            var marker_4bb96e3f8ccbfa209f753f544800ef6d = L.marker(
+                [48.830981659316855, 2.3481646925210953],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_f3968ca4c07cc651a5cad434aed5074b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4c2ace950b025509398defe1be3e349 = $(`<div id="html_a4c2ace950b025509398defe1be3e349" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Croulebarde - Corvisart</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">34</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_f3968ca4c07cc651a5cad434aed5074b.setContent(html_a4c2ace950b025509398defe1be3e349);
+            
+        
+
+        marker_4bb96e3f8ccbfa209f753f544800ef6d.bindPopup(popup_f3968ca4c07cc651a5cad434aed5074b)
+        ;
+
+        
+    
+    
+            var marker_f5c7bbad41a61747d4cda6c1b3ccba6f = L.marker(
+                [48.86785, 2.446748],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_909e42885494623531070d4bbc7e1bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01b92e6058788e7407defee219c0a4ca = $(`<div id="html_01b92e6058788e7407defee219c0a4ca" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Romainville - Vaillant-Couturier</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">38</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_909e42885494623531070d4bbc7e1bb0.setContent(html_01b92e6058788e7407defee219c0a4ca);
+            
+        
+
+        marker_f5c7bbad41a61747d4cda6c1b3ccba6f.bindPopup(popup_909e42885494623531070d4bbc7e1bb0)
+        ;
+
+        
+    
+    
+            var marker_eab44d6a16a1587a5e6b199cf268a81e = L.marker(
+                [48.768482147086, 2.4711590635627],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_17006174ff8bb33cf49dd49ee886412c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_200e7b36a8524e69d789491a4488d441 = $(`<div id="html_200e7b36a8524e69d789491a4488d441" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Sarrazins - Saussure</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">1</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">0</span></p>             </div>             </div>`)[0];
+                popup_17006174ff8bb33cf49dd49ee886412c.setContent(html_200e7b36a8524e69d789491a4488d441);
+            
+        
+
+        marker_eab44d6a16a1587a5e6b199cf268a81e.bindPopup(popup_17006174ff8bb33cf49dd49ee886412c)
+        ;
+
+        
+    
+    
+            var marker_8fd982928af88e4f753ffe200afd350c = L.marker(
+                [48.89792240854517, 2.32851451022192],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_b58ffd6ce5c7e67646e4c38412362335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78bdfee0417a8a55617596065634c99a = $(`<div id="html_78bdfee0417a8a55617596065634c99a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Porte de Saint-Ouen - Bessières</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">42</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_b58ffd6ce5c7e67646e4c38412362335.setContent(html_78bdfee0417a8a55617596065634c99a);
+            
+        
+
+        marker_8fd982928af88e4f753ffe200afd350c.bindPopup(popup_b58ffd6ce5c7e67646e4c38412362335)
+        ;
+
+        
+    
+    
+            var marker_69c4dae3a426304a1e1fe2662db59394 = L.marker(
+                [48.89594736851349, 2.381133802246315],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_2b1b25fa67335096a4af11a6c26fbd89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f555986f480be48debf4135cbeb6bb4d = $(`<div id="html_f555986f480be48debf4135cbeb6bb4d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Cambrai - Benjamin Constant</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">43</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">7</span></p>             </div>             </div>`)[0];
+                popup_2b1b25fa67335096a4af11a6c26fbd89.setContent(html_f555986f480be48debf4135cbeb6bb4d);
+            
+        
+
+        marker_69c4dae3a426304a1e1fe2662db59394.bindPopup(popup_2b1b25fa67335096a4af11a6c26fbd89)
+        ;
+
+        
+    
+    
+            var marker_4022127c2349b65a279f167ae601ea1e = L.marker(
+                [48.879406604954, 2.3034455627202988],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_d42073b8b64100bc2128a3cbbee5d766 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b54c6db147c598438746d665dc4a8531 = $(`<div id="html_b54c6db147c598438746d665dc4a8531" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Chazelles - Courcelles</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">35</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">7</span></p>             </div>             </div>`)[0];
+                popup_d42073b8b64100bc2128a3cbbee5d766.setContent(html_b54c6db147c598438746d665dc4a8531);
+            
+        
+
+        marker_4022127c2349b65a279f167ae601ea1e.bindPopup(popup_d42073b8b64100bc2128a3cbbee5d766)
+        ;
+
+        
+    
+    
+            var marker_59d1cb028beddb7c53c571b0f63f1b92 = L.marker(
+                [48.822036188382, 2.2754641655975],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_9e1b9a26d7ee7a8da32e2b2328d204b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f544506bbf34b716a9910376ecadb26 = $(`<div id="html_4f544506bbf34b716a9910376ecadb26" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Moulin de Pierre - Abbé Grégoire</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">20</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_9e1b9a26d7ee7a8da32e2b2328d204b5.setContent(html_4f544506bbf34b716a9910376ecadb26);
+            
+        
+
+        marker_59d1cb028beddb7c53c571b0f63f1b92.bindPopup(popup_9e1b9a26d7ee7a8da32e2b2328d204b5)
+        ;
+
+        
+    
+    
+            var marker_d8d6f39ea2d8eb3b85a0387d688868a5 = L.marker(
+                [48.871031137596, 2.379056852114],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_8050a5714c721c9d0c907b700d3f6871 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79361d8b2c55896d329e1bd06a018466 = $(`<div id="html_79361d8b2c55896d329e1bd06a018466" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Ramponeau - Belleville</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">44</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_8050a5714c721c9d0c907b700d3f6871.setContent(html_79361d8b2c55896d329e1bd06a018466);
+            
+        
+
+        marker_d8d6f39ea2d8eb3b85a0387d688868a5.bindPopup(popup_8050a5714c721c9d0c907b700d3f6871)
+        ;
+
+        
+    
+    
+            var marker_3abeb66c38a4a7445b09cea951d6e963 = L.marker(
+                [48.84884147189881, 2.426325418925233],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_501896d59a4e97d4266c7f7a2d1aad70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd9a53d429b74c749fb37010d7d47df6 = $(`<div id="html_cd9a53d429b74c749fb37010d7d47df6" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Lagny - Victor Basch</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">26</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_501896d59a4e97d4266c7f7a2d1aad70.setContent(html_cd9a53d429b74c749fb37010d7d47df6);
+            
+        
+
+        marker_3abeb66c38a4a7445b09cea951d6e963.bindPopup(popup_501896d59a4e97d4266c7f7a2d1aad70)
+        ;
+
+        
+    
+    
+            var marker_55d4fb12c75e77c9c81d69a00fc2952f = L.marker(
+                [48.81807418981508, 2.3267009854316716],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_b331c3c0dfced276bddf962c21f87f7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b269008c6b990e864695526714466e25 = $(`<div id="html_b269008c6b990e864695526714466e25" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Louis Lejeune - Barbès</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">25</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_b331c3c0dfced276bddf962c21f87f7b.setContent(html_b269008c6b990e864695526714466e25);
+            
+        
+
+        marker_55d4fb12c75e77c9c81d69a00fc2952f.bindPopup(popup_b331c3c0dfced276bddf962c21f87f7b)
+        ;
+
+        
+    
+    
+            var marker_aeb7a037f13bb0b7c02a7555fab04605 = L.marker(
+                [48.83823094269141, 2.270506024360657],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_ab868118393ba24e4422b9a106a8bef1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb19003a91979759e879d57f025aced8 = $(`<div id="html_cb19003a91979759e879d57f025aced8" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Général Martial Valin - Pont du Garigliano</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">16</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">5</span></p>             </div>             </div>`)[0];
+                popup_ab868118393ba24e4422b9a106a8bef1.setContent(html_cb19003a91979759e879d57f025aced8);
+            
+        
+
+        marker_aeb7a037f13bb0b7c02a7555fab04605.bindPopup(popup_ab868118393ba24e4422b9a106a8bef1)
+        ;
+
+        
+    
+    
+            var marker_924b6cfa29929f71c73f691cccbf9171 = L.marker(
+                [48.78980918988166, 2.3143940046429634],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_d854048fc4ed5ed74fca35e4ecbfdf3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7faf3eebb2c749be51ec41db4d822ca = $(`<div id="html_b7faf3eebb2c749be51ec41db4d822ca" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Rond-point du Dr Albert Schweitzer</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">22</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_d854048fc4ed5ed74fca35e4ecbfdf3c.setContent(html_b7faf3eebb2c749be51ec41db4d822ca);
+            
+        
+
+        marker_924b6cfa29929f71c73f691cccbf9171.bindPopup(popup_d854048fc4ed5ed74fca35e4ecbfdf3c)
+        ;
+
+        
+    
+    
+            var marker_c6a9f4ad47639c6b7fdfc6321b99f174 = L.marker(
+                [48.882428, 2.314002],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_f1ee3c02cf49307d9533d26876f73548 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fb060c9585615716d9a8f238d5cde66 = $(`<div id="html_5fb060c9585615716d9a8f238d5cde66" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">De Toqueville - Terrasse</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">30</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_f1ee3c02cf49307d9533d26876f73548.setContent(html_5fb060c9585615716d9a8f238d5cde66);
+            
+        
+
+        marker_c6a9f4ad47639c6b7fdfc6321b99f174.bindPopup(popup_f1ee3c02cf49307d9533d26876f73548)
+        ;
+
+        
+    
+    
+            var marker_79834d53911e6de07844da7a8192d95a = L.marker(
+                [48.871044051984, 2.3661044619878],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_fd18e657c7cd09a26bfb8c250486a195 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6de304aacb638d909df604d73e8a0ebc = $(`<div id="html_6de304aacb638d909df604d73e8a0ebc" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Alibert - Jemmapes</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">60</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">7</span></p>             </div>             </div>`)[0];
+                popup_fd18e657c7cd09a26bfb8c250486a195.setContent(html_6de304aacb638d909df604d73e8a0ebc);
+            
+        
+
+        marker_79834d53911e6de07844da7a8192d95a.bindPopup(popup_fd18e657c7cd09a26bfb8c250486a195)
+        ;
+
+        
+    
+    
+            var marker_6688833d213f5ae974b2b121496711c8 = L.marker(
+                [48.86785342111862, 2.349364310503006],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_43393b95ea15bf0cdd51ced61a867b3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc802a25ee92e4bbd5185bb3bc6cc4b3 = $(`<div id="html_dc802a25ee92e4bbd5185bb3bc6cc4b3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Caire - Dussoubs</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">40</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">37</span></p>             </div>             </div>`)[0];
+                popup_43393b95ea15bf0cdd51ced61a867b3f.setContent(html_dc802a25ee92e4bbd5185bb3bc6cc4b3);
+            
+        
+
+        marker_6688833d213f5ae974b2b121496711c8.bindPopup(popup_43393b95ea15bf0cdd51ced61a867b3f)
+        ;
+
+        
+    
+    
+            var marker_f2dcb3209ed2bb03a69046713bce2ff8 = L.marker(
+                [48.879161, 2.343698],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_ac4c8a94d2406862f8fb342aa593bfe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72f50a5328d77263a70db2d777ae9f32 = $(`<div id="html_72f50a5328d77263a70db2d777ae9f32" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Tour d'Auvergne - Rodier</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">17</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_ac4c8a94d2406862f8fb342aa593bfe0.setContent(html_72f50a5328d77263a70db2d777ae9f32);
+            
+        
+
+        marker_f2dcb3209ed2bb03a69046713bce2ff8.bindPopup(popup_ac4c8a94d2406862f8fb342aa593bfe0)
+        ;
+
+        
+    
+    
+            var marker_7345fcd4207e4ca31ce59bb781efac29 = L.marker(
+                [48.87393521240818, 2.3064258322119713],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_9cc012412e14c7dde19f1a6e8b4d1339 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_383bc482bcd5853b490aaa4cbe7d4145 = $(`<div id="html_383bc482bcd5853b490aaa4cbe7d4145" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Artois - Berri</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">23</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">12</span></p>             </div>             </div>`)[0];
+                popup_9cc012412e14c7dde19f1a6e8b4d1339.setContent(html_383bc482bcd5853b490aaa4cbe7d4145);
+            
+        
+
+        marker_7345fcd4207e4ca31ce59bb781efac29.bindPopup(popup_9cc012412e14c7dde19f1a6e8b4d1339)
+        ;
+
+        
+    
+    
+            var marker_36fdd11323ed5c4e3a482bcfb4ace353 = L.marker(
+                [48.868834023334, 2.2986030816809],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_187420194aa1a8ff03c3c05a413eba5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2875ff1a554a26c278757aaac51480e1 = $(`<div id="html_2875ff1a554a26c278757aaac51480e1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Marceau - Chaillot</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">21</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">19</span></p>             </div>             </div>`)[0];
+                popup_187420194aa1a8ff03c3c05a413eba5a.setContent(html_2875ff1a554a26c278757aaac51480e1);
+            
+        
+
+        marker_36fdd11323ed5c4e3a482bcfb4ace353.bindPopup(popup_187420194aa1a8ff03c3c05a413eba5a)
+        ;
+
+        
+    
+    
+            var marker_1fded1b2a26aa64ace11ecd327e34edd = L.marker(
+                [48.8214169, 2.342167],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_5c1145295d7eeafeca9363d661794059 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0488e491874c97e9098e36b32aaba07a = $(`<div id="html_0488e491874c97e9098e36b32aaba07a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Liard - Amiral Mouchez</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">28</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_5c1145295d7eeafeca9363d661794059.setContent(html_0488e491874c97e9098e36b32aaba07a);
+            
+        
+
+        marker_1fded1b2a26aa64ace11ecd327e34edd.bindPopup(popup_5c1145295d7eeafeca9363d661794059)
+        ;
+
+        
+    
+    
+            var marker_cba1e8f180a3f0ca1cd73e7746a2bb97 = L.marker(
+                [48.82435782216384, 2.377065159380436],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_ffc1d1f9574691993c111a21981729a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e6f819cb5655319d3c6a77425766aac = $(`<div id="html_9e6f819cb5655319d3c6a77425766aac" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Regnault - Patay</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">63</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">49</span></p>             </div>             </div>`)[0];
+                popup_ffc1d1f9574691993c111a21981729a8.setContent(html_9e6f819cb5655319d3c6a77425766aac);
+            
+        
+
+        marker_cba1e8f180a3f0ca1cd73e7746a2bb97.bindPopup(popup_ffc1d1f9574691993c111a21981729a8)
+        ;
+
+        
+    
+    
+            var marker_ae718b89f425fd1db4200adb88101468 = L.marker(
+                [48.78448485079149, 2.35908430069685],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_15699969cd12443754315e504d31d6ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a636cef08c256bffc5e27b5bbb25a42b = $(`<div id="html_a636cef08c256bffc5e27b5bbb25a42b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Youri Gagarine - Karl Marx</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">22</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_15699969cd12443754315e504d31d6ee.setContent(html_a636cef08c256bffc5e27b5bbb25a42b);
+            
+        
+
+        marker_ae718b89f425fd1db4200adb88101468.bindPopup(popup_15699969cd12443754315e504d31d6ee)
+        ;
+
+        
+    
+    
+            var marker_7487f6bd7b02bc9f28af114fb00c003d = L.marker(
+                [48.86106902949534, 2.2730283066630363],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_b2277955f9ce7f57f102e08e0d8caf02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aedbcbffbf42757ff6381cfebc6f9e36 = $(`<div id="html_aedbcbffbf42757ff6381cfebc6f9e36" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Octave Feuillet - Albéric Magnard</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">21</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_b2277955f9ce7f57f102e08e0d8caf02.setContent(html_aedbcbffbf42757ff6381cfebc6f9e36);
+            
+        
+
+        marker_7487f6bd7b02bc9f28af114fb00c003d.bindPopup(popup_b2277955f9ce7f57f102e08e0d8caf02)
+        ;
+
+        
+    
+    
+            var marker_0c2028250904cfa2dcbdd6fcb89dd629 = L.marker(
+                [48.88655580065981, 2.288640439510346],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_13a4f5baa7c6f9767b99d0a6fdf55b33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b76ba26de1c1e743c8a8d9de4f54f491 = $(`<div id="html_b76ba26de1c1e743c8a8d9de4f54f491" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Jean Oestreicher - Porte de Champerret</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">21</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">8</span></p>             </div>             </div>`)[0];
+                popup_13a4f5baa7c6f9767b99d0a6fdf55b33.setContent(html_b76ba26de1c1e743c8a8d9de4f54f491);
+            
+        
+
+        marker_0c2028250904cfa2dcbdd6fcb89dd629.bindPopup(popup_13a4f5baa7c6f9767b99d0a6fdf55b33)
+        ;
+
+        
+    
+    
+            var marker_7bcc4202aede7d1dadd88d5242837646 = L.marker(
+                [48.8351212784276, 2.385534569621086],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_75d488005f5a3882c95e8bbd00b1ef58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_719a6eec731c7cd1e615aa74298cbb4f = $(`<div id="html_719a6eec731c7cd1e615aa74298cbb4f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Gabriel Lamé</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">36</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">33</span></p>             </div>             </div>`)[0];
+                popup_75d488005f5a3882c95e8bbd00b1ef58.setContent(html_719a6eec731c7cd1e615aa74298cbb4f);
+            
+        
+
+        marker_7bcc4202aede7d1dadd88d5242837646.bindPopup(popup_75d488005f5a3882c95e8bbd00b1ef58)
+        ;
+
+        
+    
+    
+            var marker_77420fcf5818bbdd6cbcb310627a5775 = L.marker(
+                [48.8462904, 2.3521495],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_b8a8357dcb4bcc8201cf4111e2bfd93f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9769b70400ddfb39aba0ca5b7e1c6c6d = $(`<div id="html_9769b70400ddfb39aba0ca5b7e1c6c6d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Boulangers - Cardinal Lemoine</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">20</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">16</span></p>             </div>             </div>`)[0];
+                popup_b8a8357dcb4bcc8201cf4111e2bfd93f.setContent(html_9769b70400ddfb39aba0ca5b7e1c6c6d);
+            
+        
+
+        marker_77420fcf5818bbdd6cbcb310627a5775.bindPopup(popup_b8a8357dcb4bcc8201cf4111e2bfd93f)
+        ;
+
+        
+    
+    
+            var marker_c36a2c313eedb8175dcec72b03ea0570 = L.marker(
+                [48.827228120536, 2.268122527474],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_9d77bd358114609e3e227da4140fd063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f1f5c7af5c276cab6b9f7a065f029c6 = $(`<div id="html_0f1f5c7af5c276cab6b9f7a065f029c6" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Charlot - Stade Gabriel Voisin</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">31</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">29</span></p>             </div>             </div>`)[0];
+                popup_9d77bd358114609e3e227da4140fd063.setContent(html_0f1f5c7af5c276cab6b9f7a065f029c6);
+            
+        
+
+        marker_c36a2c313eedb8175dcec72b03ea0570.bindPopup(popup_9d77bd358114609e3e227da4140fd063)
+        ;
+
+        
+    
+    
+            var marker_1fd1073b0ede143fd4b9065101f2f7bd = L.marker(
+                [48.88320784122797, 2.3308449949028507],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_d0653b024ec06934dab75e7a697b261c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a5a8c085aa69caeeea61c949ce40a9 = $(`<div id="html_a6a5a8c085aa69caeeea61c949ce40a9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Douai - Bruxelles</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">27</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_d0653b024ec06934dab75e7a697b261c.setContent(html_a6a5a8c085aa69caeeea61c949ce40a9);
+            
+        
+
+        marker_1fd1073b0ede143fd4b9065101f2f7bd.bindPopup(popup_d0653b024ec06934dab75e7a697b261c)
+        ;
+
+        
+    
+    
+            var marker_58617212eb6ba798201436b607d908c2 = L.marker(
+                [48.874777677621296, 2.326515804784655],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_67c0751cfb7d72d7cd6e9eaf63b76a87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21f42cac1b722521e7baf89e4dc3356e = $(`<div id="html_21f42cac1b722521e7baf89e4dc3356e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Gare Saint-Lazare - Isly</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">27</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">21</span></p>             </div>             </div>`)[0];
+                popup_67c0751cfb7d72d7cd6e9eaf63b76a87.setContent(html_21f42cac1b722521e7baf89e4dc3356e);
+            
+        
+
+        marker_58617212eb6ba798201436b607d908c2.bindPopup(popup_67c0751cfb7d72d7cd6e9eaf63b76a87)
+        ;
+
+        
+    
+    
+            var marker_16d1cd4dc8f7f4ca7f015a6ece567997 = L.marker(
+                [48.88115023337061, 2.480436824262142],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_321503d96a3cf85be1c3bca5bd026d04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce31feab5d83c088e79c1365d72b0da5 = $(`<div id="html_ce31feab5d83c088e79c1365d72b0da5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Gare Rosny-Bois-Perrier</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">36</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">28</span></p>             </div>             </div>`)[0];
+                popup_321503d96a3cf85be1c3bca5bd026d04.setContent(html_ce31feab5d83c088e79c1365d72b0da5);
+            
+        
+
+        marker_16d1cd4dc8f7f4ca7f015a6ece567997.bindPopup(popup_321503d96a3cf85be1c3bca5bd026d04)
+        ;
+
+        
+    
+    
+            var marker_a19aa5a0e0912defab566fa7f62200eb = L.marker(
+                [48.8978765, 2.3230632],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_fbd27f4a0c61fd324da2d98d1e3c3c4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_890b9982c92bb36fcf19624eaa7965d5 = $(`<div id="html_890b9982c92bb36fcf19624eaa7965d5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Porte Pouchet-Bessières</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">23</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_fbd27f4a0c61fd324da2d98d1e3c3c4d.setContent(html_890b9982c92bb36fcf19624eaa7965d5);
+            
+        
+
+        marker_a19aa5a0e0912defab566fa7f62200eb.bindPopup(popup_fbd27f4a0c61fd324da2d98d1e3c3c4d)
+        ;
+
+        
+    
+    
+            var marker_c1c5aff6add9516ef67f57bc0858f5ed = L.marker(
+                [48.87219, 2.329423],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_32bbc3ad00ce242d9e84fb11009d4fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82459208898d90c0fd193c63c434498f = $(`<div id="html_82459208898d90c0fd193c63c434498f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Boudreau - Auber</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">28</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">23</span></p>             </div>             </div>`)[0];
+                popup_32bbc3ad00ce242d9e84fb11009d4fa2.setContent(html_82459208898d90c0fd193c63c434498f);
+            
+        
+
+        marker_c1c5aff6add9516ef67f57bc0858f5ed.bindPopup(popup_32bbc3ad00ce242d9e84fb11009d4fa2)
+        ;
+
+        
+    
+    
+            var marker_b240ee4900081175d5fcadcd794df4f5 = L.marker(
+                [48.883667, 2.395733],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_f6d5d43fb111da8c0b91ee17cdfc128d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f89b5ab4c637baaa9daeb5912624d9fa = $(`<div id="html_f89b5ab4c637baaa9daeb5912624d9fa" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Ambroise Rendu - Porte Brunet</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">17</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">5</span></p>             </div>             </div>`)[0];
+                popup_f6d5d43fb111da8c0b91ee17cdfc128d.setContent(html_f89b5ab4c637baaa9daeb5912624d9fa);
+            
+        
+
+        marker_b240ee4900081175d5fcadcd794df4f5.bindPopup(popup_f6d5d43fb111da8c0b91ee17cdfc128d)
+        ;
+
+        
+    
+    
+            var marker_ad90a10c7c25258b9c8e50a97bde9766 = L.marker(
+                [48.862923800596, 2.4155035614967],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_fb15c629d55e5741703211339c802930 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88f79e7f84c0a31ed7446a4d439a3de9 = $(`<div id="html_88f79e7f84c0a31ed7446a4d439a3de9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Château - République</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">26</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_fb15c629d55e5741703211339c802930.setContent(html_88f79e7f84c0a31ed7446a4d439a3de9);
+            
+        
+
+        marker_ad90a10c7c25258b9c8e50a97bde9766.bindPopup(popup_fb15c629d55e5741703211339c802930)
+        ;
+
+        
+    
+    
+            var marker_7901d40b2ef4d87609b51775830b40ce = L.marker(
+                [48.814183748660554, 2.2872862592339516],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_6f9c6317ecb881b9c3988b92d3a07fd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb5f21d9fcab073f0dbb1d0bda015f34 = $(`<div id="html_eb5f21d9fcab073f0dbb1d0bda015f34" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Henri Barbusse - Stalingrad</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">16</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_6f9c6317ecb881b9c3988b92d3a07fd9.setContent(html_eb5f21d9fcab073f0dbb1d0bda015f34);
+            
+        
+
+        marker_7901d40b2ef4d87609b51775830b40ce.bindPopup(popup_6f9c6317ecb881b9c3988b92d3a07fd9)
+        ;
+
+        
+    
+    
+            var marker_c0e2ba71a16d8881246370778cf4514d = L.marker(
+                [48.88917613743794, 2.3833653330802917],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_f068dcdd2c67ad9176ee80fbb94d6fea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a7ef5960be1dfc89ad338bf21a56b20 = $(`<div id="html_8a7ef5960be1dfc89ad338bf21a56b20" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Thionville - Ourcq</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">24</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_f068dcdd2c67ad9176ee80fbb94d6fea.setContent(html_8a7ef5960be1dfc89ad338bf21a56b20);
+            
+        
+
+        marker_c0e2ba71a16d8881246370778cf4514d.bindPopup(popup_f068dcdd2c67ad9176ee80fbb94d6fea)
+        ;
+
+        
+    
+    
+            var marker_bc436b7d8382bd80d17a310e5775478e = L.marker(
+                [48.87334627510507, 2.337980867701675],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_2c12cece715e76a96a70dfbec9ced2dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1693f58e75589d3afa08e9ee3c27e057 = $(`<div id="html_1693f58e75589d3afa08e9ee3c27e057" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Rossini - Laffitte</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">33</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">26</span></p>             </div>             </div>`)[0];
+                popup_2c12cece715e76a96a70dfbec9ced2dc.setContent(html_1693f58e75589d3afa08e9ee3c27e057);
+            
+        
+
+        marker_bc436b7d8382bd80d17a310e5775478e.bindPopup(popup_2c12cece715e76a96a70dfbec9ced2dc)
+        ;
+
+        
+    
+    
+            var marker_1de16f867008f2fba2a55daa7fd057ee = L.marker(
+                [48.91864865955558, 2.2814112156629562],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_241206e2590398202abe27afbbee58a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43aa1709ed70e715f35d54758ac6ad76 = $(`<div id="html_43aa1709ed70e715f35d54758ac6ad76" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Argenteuil - Voltaire</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">16</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_241206e2590398202abe27afbbee58a4.setContent(html_43aa1709ed70e715f35d54758ac6ad76);
+            
+        
+
+        marker_1de16f867008f2fba2a55daa7fd057ee.bindPopup(popup_241206e2590398202abe27afbbee58a4)
+        ;
+
+        
+    
+    
+            var marker_75b5122a141617b22ff583a46c16707b = L.marker(
+                [48.88896161855884, 2.322528975094376],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_5072b5f19ca9fc3a7dfc1190f791a828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_658ddfa68df2c5d3e672b268a155754b = $(`<div id="html_658ddfa68df2c5d3e672b268a155754b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Legendre - Clichy</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">40</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">2</span></p>             </div>             </div>`)[0];
+                popup_5072b5f19ca9fc3a7dfc1190f791a828.setContent(html_658ddfa68df2c5d3e672b268a155754b);
+            
+        
+
+        marker_75b5122a141617b22ff583a46c16707b.bindPopup(popup_5072b5f19ca9fc3a7dfc1190f791a828)
+        ;
+
+        
+    
+    
+            var marker_5b508887cc6e43ffa0f565b0d78f2d96 = L.marker(
+                [48.87745567681383, 2.309694221419506],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_5625fd773879651fbc067c2da2efd7bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de9c4ff795b38ca8befc3c450602b7b4 = $(`<div id="html_de9c4ff795b38ca8befc3c450602b7b4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Lisbonne - Monceau</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">33</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">19</span></p>             </div>             </div>`)[0];
+                popup_5625fd773879651fbc067c2da2efd7bd.setContent(html_de9c4ff795b38ca8befc3c450602b7b4);
+            
+        
+
+        marker_5b508887cc6e43ffa0f565b0d78f2d96.bindPopup(popup_5625fd773879651fbc067c2da2efd7bd)
+        ;
+
+        
+    
+    
+            var marker_19f17c3474628639871eda672269cf99 = L.marker(
+                [48.8554439, 2.2704418],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_a68d328c4af3155bd6ca48fda3db7dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60763f446c28de13c6fef9c7204e154d = $(`<div id="html_60763f446c28de13c6fef9c7204e154d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Ranelagh - Mozart</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">6</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">2</span></p>             </div>             </div>`)[0];
+                popup_a68d328c4af3155bd6ca48fda3db7dd9.setContent(html_60763f446c28de13c6fef9c7204e154d);
+            
+        
+
+        marker_19f17c3474628639871eda672269cf99.bindPopup(popup_a68d328c4af3155bd6ca48fda3db7dd9)
+        ;
+
+        
+    
+    
+            var marker_ab1dc0805c41c2c9993e6aced654b2e6 = L.marker(
+                [48.88006587474148, 2.3310810327529907],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_bdd8319ece7ccf7a33601965458c8e5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cf16372d44b19874806583e9e04cc62 = $(`<div id="html_2cf16372d44b19874806583e9e04cc62" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Moncey - Blanche</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">17</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_bdd8319ece7ccf7a33601965458c8e5b.setContent(html_2cf16372d44b19874806583e9e04cc62);
+            
+        
+
+        marker_ab1dc0805c41c2c9993e6aced654b2e6.bindPopup(popup_bdd8319ece7ccf7a33601965458c8e5b)
+        ;
+
+        
+    
+    
+            var marker_93bbcb51db877cc9e575efac255ca217 = L.marker(
+                [48.929867194519, 2.2836696356535],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_18a991b423679599a14b9de05c413455 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb2b67d289cc5ff8ebb453072ab80f64 = $(`<div id="html_cb2b67d289cc5ff8ebb453072ab80f64" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Redoute - Les Courtilles</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">40</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">14</span></p>             </div>             </div>`)[0];
+                popup_18a991b423679599a14b9de05c413455.setContent(html_cb2b67d289cc5ff8ebb453072ab80f64);
+            
+        
+
+        marker_93bbcb51db877cc9e575efac255ca217.bindPopup(popup_18a991b423679599a14b9de05c413455)
+        ;
+
+        
+    
+    
+            var marker_d9aa69dd0b7eb7860129a6960c9b3476 = L.marker(
+                [48.88192765861766, 2.392586767673493],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_b300875a616333c38dcdd06efef6356d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38d8bcc9aed80e619fb0a1264a657e4f = $(`<div id="html_38d8bcc9aed80e619fb0a1264a657e4f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Place de Rhin et Danube</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">17</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_b300875a616333c38dcdd06efef6356d.setContent(html_38d8bcc9aed80e619fb0a1264a657e4f);
+            
+        
+
+        marker_d9aa69dd0b7eb7860129a6960c9b3476.bindPopup(popup_b300875a616333c38dcdd06efef6356d)
+        ;
+
+        
+    
+    
+            var marker_519e8d393ba004c8e2ce97117da71cf7 = L.marker(
+                [48.84097491091973, 2.264390252530575],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_f1f382611e301f11f115b8af037594e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06782cc38c67098614fbdba1a33a302d = $(`<div id="html_06782cc38c67098614fbdba1a33a302d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Exelmans - Versailles</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">49</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">13</span></p>             </div>             </div>`)[0];
+                popup_f1f382611e301f11f115b8af037594e4.setContent(html_06782cc38c67098614fbdba1a33a302d);
+            
+        
+
+        marker_519e8d393ba004c8e2ce97117da71cf7.bindPopup(popup_f1f382611e301f11f115b8af037594e4)
+        ;
+
+        
+    
+    
+            var marker_94c80423619a7dac9bde5d07321c67f0 = L.marker(
+                [48.858688774062955, 2.383553994571467],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_360cf4ab34c53ae72294406ae8b3d855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62aeb605c264ffb3199cac8e80c582f4 = $(`<div id="html_62aeb605c264ffb3199cac8e80c582f4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Saint-Maur - Roquette</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">46</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">8</span></p>             </div>             </div>`)[0];
+                popup_360cf4ab34c53ae72294406ae8b3d855.setContent(html_62aeb605c264ffb3199cac8e80c582f4);
+            
+        
+
+        marker_94c80423619a7dac9bde5d07321c67f0.bindPopup(popup_360cf4ab34c53ae72294406ae8b3d855)
+        ;
+
+        
+    
+    
+            var marker_ca1df3ea10685ad713ec200553d07375 = L.marker(
+                [48.80889533774377, 2.5382421165704727],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_8cf407c937eb9f46cf419e9a628adf38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35d694bb7c6519b5fcb311a3010f22b1 = $(`<div id="html_35d694bb7c6519b5fcb311a3010f22b1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">11 Novembre 1918 - 8 Mai 1945</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">36</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">22</span></p>             </div>             </div>`)[0];
+                popup_8cf407c937eb9f46cf419e9a628adf38.setContent(html_35d694bb7c6519b5fcb311a3010f22b1);
+            
+        
+
+        marker_ca1df3ea10685ad713ec200553d07375.bindPopup(popup_8cf407c937eb9f46cf419e9a628adf38)
+        ;
+
+        
+    
+    
+            var marker_e23edf7afd47a26d02c97c57e7db7743 = L.marker(
+                [48.85507930579506, 2.3733686318721463],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_e6eb5b466cc3b81883bbfc3532757c03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae9b727f9a6e29f8dc2ceef8ffad60f = $(`<div id="html_bae9b727f9a6e29f8dc2ceef8ffad60f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Roquette - Thiéré</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">23</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">15</span></p>             </div>             </div>`)[0];
+                popup_e6eb5b466cc3b81883bbfc3532757c03.setContent(html_bae9b727f9a6e29f8dc2ceef8ffad60f);
+            
+        
+
+        marker_e23edf7afd47a26d02c97c57e7db7743.bindPopup(popup_e6eb5b466cc3b81883bbfc3532757c03)
+        ;
+
+        
+    
+    
+            var marker_83b3f4d0a7b732831c8ae5c00e04ed19 = L.marker(
+                [48.874746047357135, 2.3082953318953514],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_897d2ba51ef50fdece6d367bc78e86fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_454fd76c6b5e97b52ed8e23d411d099b = $(`<div id="html_454fd76c6b5e97b52ed8e23d411d099b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Berri - Haussmann</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">35</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">27</span></p>             </div>             </div>`)[0];
+                popup_897d2ba51ef50fdece6d367bc78e86fa.setContent(html_454fd76c6b5e97b52ed8e23d411d099b);
+            
+        
+
+        marker_83b3f4d0a7b732831c8ae5c00e04ed19.bindPopup(popup_897d2ba51ef50fdece6d367bc78e86fa)
+        ;
+
+        
+    
+    
+            var marker_f6a4717d536d6b4204c9452fc970ba7e = L.marker(
+                [48.861142162761, 2.3677996181077],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_120dce319dd67d19b177db70c1db07b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_629d131f3f74a24af00f65c0caa6227b = $(`<div id="html_629d131f3f74a24af00f65c0caa6227b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Amelot - Saint-Sébastien</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">30</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">22</span></p>             </div>             </div>`)[0];
+                popup_120dce319dd67d19b177db70c1db07b3.setContent(html_629d131f3f74a24af00f65c0caa6227b);
+            
+        
+
+        marker_f6a4717d536d6b4204c9452fc970ba7e.bindPopup(popup_120dce319dd67d19b177db70c1db07b3)
+        ;
+
+        
+    
+    
+            var marker_046c102b303f4991ff4bbb1f49809d6d = L.marker(
+                [48.8847601, 2.3534657],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_3c9d98525e50c81425b37f5603135173 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02779d565a993a927cbc6735a5253568 = $(`<div id="html_02779d565a993a927cbc6735a5253568" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Chartres - La Charbonnière</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">34</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_3c9d98525e50c81425b37f5603135173.setContent(html_02779d565a993a927cbc6735a5253568);
+            
+        
+
+        marker_046c102b303f4991ff4bbb1f49809d6d.bindPopup(popup_3c9d98525e50c81425b37f5603135173)
+        ;
+
+        
+    
+    
+            var marker_b9fea0b02c75c03291a827a43cbdbfef = L.marker(
+                [48.872010281270974, 2.392039597034455],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_4ab66d87b2aad415edd3598f883a48f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61e35e831e37ef62a53660ee3f986658 = $(`<div id="html_61e35e831e37ef62a53660ee3f986658" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Pyrénées - Emmery</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">40</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_4ab66d87b2aad415edd3598f883a48f3.setContent(html_61e35e831e37ef62a53660ee3f986658);
+            
+        
+
+        marker_b9fea0b02c75c03291a827a43cbdbfef.bindPopup(popup_4ab66d87b2aad415edd3598f883a48f3)
+        ;
+
+        
+    
+    
+            var marker_76bd79c684022f791c09e5dfcf908712 = L.marker(
+                [48.852804604940296, 2.293077029857222],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_4428a762351cfe96c591dfde9e2721d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34511fea832ef5ba56ff90fb94095fb1 = $(`<div id="html_34511fea832ef5ba56ff90fb94095fb1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Desaix - Edgar Faure</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">12</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">8</span></p>             </div>             </div>`)[0];
+                popup_4428a762351cfe96c591dfde9e2721d0.setContent(html_34511fea832ef5ba56ff90fb94095fb1);
+            
+        
+
+        marker_76bd79c684022f791c09e5dfcf908712.bindPopup(popup_4428a762351cfe96c591dfde9e2721d0)
+        ;
+
+        
+    
+    
+            var marker_872c6078ef3104d5ba11e056431690ce = L.marker(
+                [48.86131452758348, 2.440614402294159],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_9a7427223e3e29c32b4f7c2e41f91a6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c15d9046a7d627df00ebe5fd819f02bd = $(`<div id="html_c15d9046a7d627df00ebe5fd819f02bd" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Mairie de Montreuil</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">52</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">7</span></p>             </div>             </div>`)[0];
+                popup_9a7427223e3e29c32b4f7c2e41f91a6c.setContent(html_c15d9046a7d627df00ebe5fd819f02bd);
+            
+        
+
+        marker_872c6078ef3104d5ba11e056431690ce.bindPopup(popup_9a7427223e3e29c32b4f7c2e41f91a6c)
+        ;
+
+        
+    
+    
+            var marker_4d956374ee9bd32302740acfc1280783 = L.marker(
+                [48.8687591, 2.4329931],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_225e8b1a5efd6385dd5bc9dca78a9d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_762df6fcfe498a8e66938319a832e526 = $(`<div id="html_762df6fcfe498a8e66938319a832e526" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Place Du Général De Gaulle</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">26</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">1</span></p>             </div>             </div>`)[0];
+                popup_225e8b1a5efd6385dd5bc9dca78a9d18.setContent(html_762df6fcfe498a8e66938319a832e526);
+            
+        
+
+        marker_4d956374ee9bd32302740acfc1280783.bindPopup(popup_225e8b1a5efd6385dd5bc9dca78a9d18)
+        ;
+
+        
+    
+    
+            var marker_db453d2102debbec6b5b11d5997ccfa1 = L.marker(
+                [48.821466904768, 2.3215785772007],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_a14be28b05671139962478a652aaba75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76dca018a7b12573d407510aca2eb92d = $(`<div id="html_76dca018a7b12573d407510aca2eb92d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Cimetière de Montrouge</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">58</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_a14be28b05671139962478a652aaba75.setContent(html_76dca018a7b12573d407510aca2eb92d);
+            
+        
+
+        marker_db453d2102debbec6b5b11d5997ccfa1.bindPopup(popup_a14be28b05671139962478a652aaba75)
+        ;
+
+        
+    
+    
+            var marker_04a5941c938d0989180aab58de65fc14 = L.marker(
+                [48.848225572724, 2.3502873256803],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_c2325735b9e23281dc855f04c27276e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b12a02e71006c7bbfb3b0372a7f01cdb = $(`<div id="html_b12a02e71006c7bbfb3b0372a7f01cdb" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Mutualité</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">37</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">29</span></p>             </div>             </div>`)[0];
+                popup_c2325735b9e23281dc855f04c27276e1.setContent(html_b12a02e71006c7bbfb3b0372a7f01cdb);
+            
+        
+
+        marker_04a5941c938d0989180aab58de65fc14.bindPopup(popup_c2325735b9e23281dc855f04c27276e1)
+        ;
+
+        
+    
+    
+            var marker_e790965c54ce8b3c64eee23cf3920a37 = L.marker(
+                [48.87403113727167, 2.38959476351738],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_a0ccfd7eecab025d4594696609db701c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebeef2e5423b899814e093aa3d148682 = $(`<div id="html_ebeef2e5423b899814e093aa3d148682" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Jourdain - Place des Grandes Rigoles</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">22</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">0</span></p>             </div>             </div>`)[0];
+                popup_a0ccfd7eecab025d4594696609db701c.setContent(html_ebeef2e5423b899814e093aa3d148682);
+            
+        
+
+        marker_e790965c54ce8b3c64eee23cf3920a37.bindPopup(popup_a0ccfd7eecab025d4594696609db701c)
+        ;
+
+        
+    
+    
+            var marker_33532d6ddcf1026540497d0305baffb3 = L.marker(
+                [48.81217465201, 2.3035024699104],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_926557472890c3adf2dda02ba246a01a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4919c2d7fc35186c861d016f7b180130 = $(`<div id="html_4919c2d7fc35186c861d016f7b180130" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Marne - Germain Dardan</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">22</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_926557472890c3adf2dda02ba246a01a.setContent(html_4919c2d7fc35186c861d016f7b180130);
+            
+        
+
+        marker_33532d6ddcf1026540497d0305baffb3.bindPopup(popup_926557472890c3adf2dda02ba246a01a)
+        ;
+
+        
+    
+    
+            var marker_859c315723d150e98daf6174b9fc36ac = L.marker(
+                [48.877436681515796, 2.3860743641853337],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_1ebde0607c31610c6e0d95a30f2e2b46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47a983cdca863df9bd19b5455de7a159 = $(`<div id="html_47a983cdca863df9bd19b5455de7a159" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Carducci - Place Hannah Arendt</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">27</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">0</span></p>             </div>             </div>`)[0];
+                popup_1ebde0607c31610c6e0d95a30f2e2b46.setContent(html_47a983cdca863df9bd19b5455de7a159);
+            
+        
+
+        marker_859c315723d150e98daf6174b9fc36ac.bindPopup(popup_1ebde0607c31610c6e0d95a30f2e2b46)
+        ;
+
+        
+    
+    
+            var marker_ff160c7981d5d5c9df9b2ae945935c42 = L.marker(
+                [48.886472466142, 2.3328901827335],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_d81266a64f61b6c7d9bc6c001022dbf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe361781d2f86d7980ac239cef5107fe = $(`<div id="html_fe361781d2f86d7980ac239cef5107fe" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Cimetière de Montmartre</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">43</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_d81266a64f61b6c7d9bc6c001022dbf8.setContent(html_fe361781d2f86d7980ac239cef5107fe);
+            
+        
+
+        marker_ff160c7981d5d5c9df9b2ae945935c42.bindPopup(popup_d81266a64f61b6c7d9bc6c001022dbf8)
+        ;
+
+        
+    
+    
+            var marker_7a3884300a7d77a8f08ec78d2669e202 = L.marker(
+                [48.847803063647, 2.4451419711113],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_73bce91a9a03cfef7ae576186a308606 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bbbb73c08d7afd4edcdb74744ae43c5 = $(`<div id="html_1bbbb73c08d7afd4edcdb74744ae43c5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Fontenay - Libération</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">25</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_73bce91a9a03cfef7ae576186a308606.setContent(html_1bbbb73c08d7afd4edcdb74744ae43c5);
+            
+        
+
+        marker_7a3884300a7d77a8f08ec78d2669e202.bindPopup(popup_73bce91a9a03cfef7ae576186a308606)
+        ;
+
+        
+    
+    
+            var marker_248b6613616371eb49736cbebd1f42e7 = L.marker(
+                [48.875089888322, 2.3826304078102],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_65910dcd5bdf7059c5835b6bb6c0250e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_274ffe9c45f0a0fb89436328fc514efe = $(`<div id="html_274ffe9c45f0a0fb89436328fc514efe" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Square Simon Bolivar</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">24</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">0</span></p>             </div>             </div>`)[0];
+                popup_65910dcd5bdf7059c5835b6bb6c0250e.setContent(html_274ffe9c45f0a0fb89436328fc514efe);
+            
+        
+
+        marker_248b6613616371eb49736cbebd1f42e7.bindPopup(popup_65910dcd5bdf7059c5835b6bb6c0250e)
+        ;
+
+        
+    
+    
+            var marker_fd1d91cc0ecdff917ce06acfd48f1aa9 = L.marker(
+                [48.843949064031825, 2.415081394834419],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_fd2043e3723db248d256a7b570c9ffdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebf57d3a12d2a4fea9c759e81f9dd56b = $(`<div id="html_ebf57d3a12d2a4fea9c759e81f9dd56b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Victor Hugo - Jeanne Jugan</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">28</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_fd2043e3723db248d256a7b570c9ffdb.setContent(html_ebf57d3a12d2a4fea9c759e81f9dd56b);
+            
+        
+
+        marker_fd1d91cc0ecdff917ce06acfd48f1aa9.bindPopup(popup_fd2043e3723db248d256a7b570c9ffdb)
+        ;
+
+        
+    
+    
+            var marker_6c0f3abf98050aaa6f1905a2bcd5ea4d = L.marker(
+                [48.77093586667601, 2.4034014344215398],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_d003f2dab3eeb4ef00c834f0a6204099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_470b8dc361e7a47faf75c431243d091d = $(`<div id="html_470b8dc361e7a47faf75c431243d091d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Conservatoire de Musique</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">25</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">17</span></p>             </div>             </div>`)[0];
+                popup_d003f2dab3eeb4ef00c834f0a6204099.setContent(html_470b8dc361e7a47faf75c431243d091d);
+            
+        
+
+        marker_6c0f3abf98050aaa6f1905a2bcd5ea4d.bindPopup(popup_d003f2dab3eeb4ef00c834f0a6204099)
+        ;
+
+        
+    
+    
+            var marker_2d878fbbfde8757c074832deee66095e = L.marker(
+                [48.818144834008976, 2.271184623241425],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_d725bb1288acae137d600705d6a83ceb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73136e0c10bfdc4f19a7200143324579 = $(`<div id="html_73136e0c10bfdc4f19a7200143324579" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Lucie Aubrac - Fort</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">30</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">3</span></p>             </div>             </div>`)[0];
+                popup_d725bb1288acae137d600705d6a83ceb.setContent(html_73136e0c10bfdc4f19a7200143324579);
+            
+        
+
+        marker_2d878fbbfde8757c074832deee66095e.bindPopup(popup_d725bb1288acae137d600705d6a83ceb)
+        ;
+
+        
+    
+    
+            var marker_42b3199b3d4dad9aa90639f78b556a65 = L.marker(
+                [48.831632518293, 2.3293121159077],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_cbb3438556af29836074644713392bc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e940c29112ec658b7b4a82d272efe234 = $(`<div id="html_e940c29112ec658b7b4a82d272efe234" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Mouton Duvernet - Général Leclerc</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">28</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_cbb3438556af29836074644713392bc0.setContent(html_e940c29112ec658b7b4a82d272efe234);
+            
+        
+
+        marker_42b3199b3d4dad9aa90639f78b556a65.bindPopup(popup_cbb3438556af29836074644713392bc0)
+        ;
+
+        
+    
+    
+            var marker_4de72ff93e9cfb2c24eff7cff4603a58 = L.marker(
+                [48.83796366147599, 2.2877392172813416],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_05d8b7b0c36748b55bc3a5e00aef8e47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a73aaeb92a6db4c504bd2fa827c5bf81 = $(`<div id="html_a73aaeb92a6db4c504bd2fa827c5bf81" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Lecourbe - Jean Maridor</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">19</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_05d8b7b0c36748b55bc3a5e00aef8e47.setContent(html_a73aaeb92a6db4c504bd2fa827c5bf81);
+            
+        
+
+        marker_4de72ff93e9cfb2c24eff7cff4603a58.bindPopup(popup_05d8b7b0c36748b55bc3a5e00aef8e47)
+        ;
+
+        
+    
+    
+            var marker_3badb52456362ce726766f38045874a4 = L.marker(
+                [48.81527009991819, 2.298078276995073],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_218a6a663304d5ca97ab20b271b84023 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bb88091493c7c04abe2d1f84dfbc5f2 = $(`<div id="html_8bb88091493c7c04abe2d1f84dfbc5f2" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Guy Môquet - Etienne Dolet</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">23</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_218a6a663304d5ca97ab20b271b84023.setContent(html_8bb88091493c7c04abe2d1f84dfbc5f2);
+            
+        
+
+        marker_3badb52456362ce726766f38045874a4.bindPopup(popup_218a6a663304d5ca97ab20b271b84023)
+        ;
+
+        
+    
+    
+            var marker_32ccaf8a3a78d80816de5c22853b4d3a = L.marker(
+                [48.86703740186721, 2.336716018617153],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_6cd12cb41471be19b42c9ecbc55f81a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afd90c425e94738fa2f19c7647aa6be0 = $(`<div id="html_afd90c425e94738fa2f19c7647aa6be0" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Chabanais - Petits Champs</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">30</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">24</span></p>             </div>             </div>`)[0];
+                popup_6cd12cb41471be19b42c9ecbc55f81a7.setContent(html_afd90c425e94738fa2f19c7647aa6be0);
+            
+        
+
+        marker_32ccaf8a3a78d80816de5c22853b4d3a.bindPopup(popup_6cd12cb41471be19b42c9ecbc55f81a7)
+        ;
+
+        
+    
+    
+            var marker_b4a3c0a0443fce25dd0c48f26fdf7c42 = L.marker(
+                [48.890451120965, 2.3490573929687],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_24175cd9a8130df4212e48e46192866b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4600505b599aef73efc5f1c0759c1f5 = $(`<div id="html_d4600505b599aef73efc5f1c0759c1f5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Marcadet - Barbès</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">37</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_24175cd9a8130df4212e48e46192866b.setContent(html_d4600505b599aef73efc5f1c0759c1f5);
+            
+        
+
+        marker_b4a3c0a0443fce25dd0c48f26fdf7c42.bindPopup(popup_24175cd9a8130df4212e48e46192866b)
+        ;
+
+        
+    
+    
+            var marker_c4c018b953109d4ff1fa192446c5435f = L.marker(
+                [48.84240765130395, 2.281037718057633],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_849cd411abad49646ec37e9af35748ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2af23437b341056f5fe3a6e409dcfcf0 = $(`<div id="html_2af23437b341056f5fe3a6e409dcfcf0" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Cevennes - Bergers</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">29</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_849cd411abad49646ec37e9af35748ba.setContent(html_2af23437b341056f5fe3a6e409dcfcf0);
+            
+        
+
+        marker_c4c018b953109d4ff1fa192446c5435f.bindPopup(popup_849cd411abad49646ec37e9af35748ba)
+        ;
+
+        
+    
+    
+            var marker_9a33bd811ce84eb7075d6b8a11c051c6 = L.marker(
+                [48.81111581390707, 2.3145738624448158],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_0acd8f1c706a2da06a64167466f51540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_578c12ee519e1781d31eb9d56877c924 = $(`<div id="html_578c12ee519e1781d31eb9d56877c924" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Molière - République</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">30</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">6</span></p>             </div>             </div>`)[0];
+                popup_0acd8f1c706a2da06a64167466f51540.setContent(html_578c12ee519e1781d31eb9d56877c924);
+            
+        
+
+        marker_9a33bd811ce84eb7075d6b8a11c051c6.bindPopup(popup_0acd8f1c706a2da06a64167466f51540)
+        ;
+
+        
+    
+    
+            var marker_977027963651ee593517acab973c1d75 = L.marker(
+                [48.83495885166784, 2.2416803240776066],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_ea4e166870e592bff91cc6e9c4b95c97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02f826b66924e145709cc0690190f9ee = $(`<div id="html_02f826b66924e145709cc0690190f9ee" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Hôtel de Ville de Boulogne Billancourt</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">26</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">24</span></p>             </div>             </div>`)[0];
+                popup_ea4e166870e592bff91cc6e9c4b95c97.setContent(html_02f826b66924e145709cc0690190f9ee);
+            
+        
+
+        marker_977027963651ee593517acab973c1d75.bindPopup(popup_ea4e166870e592bff91cc6e9c4b95c97)
+        ;
+
+        
+    
+    
+            var marker_cac9c1898ae90286aee1cc4b0f654322 = L.marker(
+                [48.872420063053, 2.3483952362828],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_414f046e315c79309d98bca9ccc2b006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f810f4a207c0f8aa87e7402cce873042 = $(`<div id="html_f810f4a207c0f8aa87e7402cce873042" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Enghien - Faubourg Poissonnière</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">33</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">32</span></p>             </div>             </div>`)[0];
+                popup_414f046e315c79309d98bca9ccc2b006.setContent(html_f810f4a207c0f8aa87e7402cce873042);
+            
+        
+
+        marker_cac9c1898ae90286aee1cc4b0f654322.bindPopup(popup_414f046e315c79309d98bca9ccc2b006)
+        ;
+
+        
+    
+    
+            var marker_fbe5fab29647e6b97a619914bf98ca53 = L.marker(
+                [48.864920982538, 2.3025491823859],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_21d8fdfd29b661fb5ada87a775476500 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea6dc7f0219ddcc65a3a11eb6fab1c28 = $(`<div id="html_ea6dc7f0219ddcc65a3a11eb6fab1c28" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Place de la Reine Astrid</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">58</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">50</span></p>             </div>             </div>`)[0];
+                popup_21d8fdfd29b661fb5ada87a775476500.setContent(html_ea6dc7f0219ddcc65a3a11eb6fab1c28);
+            
+        
+
+        marker_fbe5fab29647e6b97a619914bf98ca53.bindPopup(popup_21d8fdfd29b661fb5ada87a775476500)
+        ;
+
+        
+    
+    
+            var marker_330dd5eadabc7c4766c4c95bd6324f02 = L.marker(
+                [48.821092374256104, 2.333725690841675],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_06b663e23c8e36eba54aca1cd9381df7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_144a1053fdfe9287c8b33bd7eda24209 = $(`<div id="html_144a1053fdfe9287c8b33bd7eda24209" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">David Weill - Parc Montsouris</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">22</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">2</span></p>             </div>             </div>`)[0];
+                popup_06b663e23c8e36eba54aca1cd9381df7.setContent(html_144a1053fdfe9287c8b33bd7eda24209);
+            
+        
+
+        marker_330dd5eadabc7c4766c4c95bd6324f02.bindPopup(popup_06b663e23c8e36eba54aca1cd9381df7)
+        ;
+
+        
+    
+    
+            var marker_f83dd47954aa1075151f0bf2dae19642 = L.marker(
+                [48.836191728066666, 2.2811267160086417],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_7013f17037b150d58de0888da3f0224b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f88fd99a53647151ce55b8fa04c8079 = $(`<div id="html_3f88fd99a53647151ce55b8fa04c8079" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Place Robert Guillemard</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">24</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">22</span></p>             </div>             </div>`)[0];
+                popup_7013f17037b150d58de0888da3f0224b.setContent(html_3f88fd99a53647151ce55b8fa04c8079);
+            
+        
+
+        marker_f83dd47954aa1075151f0bf2dae19642.bindPopup(popup_7013f17037b150d58de0888da3f0224b)
+        ;
+
+        
+    
+    
+            var marker_9be47b38154456a6786e3f1db0f45fd0 = L.marker(
+                [48.8415473058801, 2.233161628246308],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_3457fee7921b0ab21ed9a71ddd93b42b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7f318ca853f535e508cbb178756756a = $(`<div id="html_d7f318ca853f535e508cbb178756756a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Marcelin Berthelot</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">27</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">11</span></p>             </div>             </div>`)[0];
+                popup_3457fee7921b0ab21ed9a71ddd93b42b.setContent(html_d7f318ca853f535e508cbb178756756a);
+            
+        
+
+        marker_9be47b38154456a6786e3f1db0f45fd0.bindPopup(popup_3457fee7921b0ab21ed9a71ddd93b42b)
+        ;
+
+        
+    
+    
+            var marker_40c6d36ccc9d1bffbab1aecedd9c8761 = L.marker(
+                [48.859358523593, 2.3896131366845],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_f45a1c005bc3c1331169c668d0d14d0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67a21f4753dc36202abbc1748b401015 = $(`<div id="html_67a21f4753dc36202abbc1748b401015" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Repos - Cimetière du Père Lachaise</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">33</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">2</span></p>             </div>             </div>`)[0];
+                popup_f45a1c005bc3c1331169c668d0d14d0a.setContent(html_67a21f4753dc36202abbc1748b401015);
+            
+        
+
+        marker_40c6d36ccc9d1bffbab1aecedd9c8761.bindPopup(popup_f45a1c005bc3c1331169c668d0d14d0a)
+        ;
+
+        
+    
+    
+            var marker_4e106de1766fa2e52be675221fbcb620 = L.marker(
+                [48.8492084999386, 2.32851454623001],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_c6092e061d70e1050e8a39b66354ca0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad1e63b0e9ccaa15ced1e03859ffe338 = $(`<div id="html_ad1e63b0e9ccaa15ced1e03859ffe338" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Assas - Rennes</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">32</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">26</span></p>             </div>             </div>`)[0];
+                popup_c6092e061d70e1050e8a39b66354ca0f.setContent(html_ad1e63b0e9ccaa15ced1e03859ffe338);
+            
+        
+
+        marker_4e106de1766fa2e52be675221fbcb620.bindPopup(popup_c6092e061d70e1050e8a39b66354ca0f)
+        ;
+
+        
+    
+    
+            var marker_ef07839021997b880539b53a62996be7 = L.marker(
+                [48.84107178161383, 2.355475388467312],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_6f8c646eab048689466472fcd10dd41d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b951afb24aef9ebb6359cc8d7c3934b6 = $(`<div id="html_b951afb24aef9ebb6359cc8d7c3934b6" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Censier - Jardin des Plantes</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">28</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">19</span></p>             </div>             </div>`)[0];
+                popup_6f8c646eab048689466472fcd10dd41d.setContent(html_b951afb24aef9ebb6359cc8d7c3934b6);
+            
+        
+
+        marker_ef07839021997b880539b53a62996be7.bindPopup(popup_6f8c646eab048689466472fcd10dd41d)
+        ;
+
+        
+    
+    
+            var marker_dc2a487dd151f45468b623a92f4c680b = L.marker(
+                [48.787553654715644, 2.306235730648041],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_eec4e34b8dc473974a998c5a6bdea819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2a04d1b54b4c7bcdb7bdcb035e0a8d4 = $(`<div id="html_d2a04d1b54b4c7bcdb7bdcb035e0a8d4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Tertres - Fontaine</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">28</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">2</span></p>             </div>             </div>`)[0];
+                popup_eec4e34b8dc473974a998c5a6bdea819.setContent(html_d2a04d1b54b4c7bcdb7bdcb035e0a8d4);
+            
+        
+
+        marker_dc2a487dd151f45468b623a92f4c680b.bindPopup(popup_eec4e34b8dc473974a998c5a6bdea819)
+        ;
+
+        
+    
+    
+            var marker_abda1b55736fc95029268a438d9215da = L.marker(
+                [48.8436279, 2.4630465],
+                {}
+            ).addTo(map_b2b9203356b675a494782a5928131f95);
+        
+    
+        var popup_38d803f28f47c129ad9af138ef075169 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1330900356bda1d479a45e0319e56ed = $(`<div id="html_a1330900356bda1d479a45e0319e56ed" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; color: #333;">                 <h3 style="color: #2c3e50; font-size: 18px; font-weight: 800;">Gare Rer de Fontenay sous Bois</h3>                 <p style="font-size: 14px;"><strong>Capaciaté :</strong> <span style="color: #2980b9;">61</span></p>                 <p style="font-size: 14px;"><strong>Bikes Disponibles :</strong> <span style="color: #e74c3c;">4</span></p>             </div>             </div>`)[0];
+                popup_38d803f28f47c129ad9af138ef075169.setContent(html_a1330900356bda1d479a45e0319e56ed);
+            
+        
+
+        marker_abda1b55736fc95029268a438d9215da.bindPopup(popup_38d803f28f47c129ad9af138ef075169)
+        ;
+
+        
+    
+</script>
+</html>
